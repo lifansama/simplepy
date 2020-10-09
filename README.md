@@ -2,8 +2,6 @@
 
 * # 我是python的爱好者，喜欢收集python编写的程序和代码，有时也会尝试自己动手，下面是收集和动手写的代码，喜欢这个或者觉得有用的还请多多支持我（请捐赠我一杯咖啡）。
 
-* ## 支付宝:
-
 ![捐赠.png](https://i.loli.net/2020/10/06/O6qhlacSMHN8CdB.png)
 
 * ## 个人网盘：https://www.lanzoux.com/b01hlwsdi  访问密码:W4mT 解压密码：52pojie
@@ -20,9 +18,9 @@
 
 * ### [密码本：几行for嵌套实现密码本的生成。](https://github.com/cnzbpy/simplepy/blob/master/%E5%AF%86%E7%A0%81%E6%9C%AC.py)
 
-* ### [批量重命名.bat：包含关键词重命名、目录重命名、文件重命名、目录和文件重命名。](https://github.com/cnzbpy/simplepy/blob/master/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D.bat)
+* ### [批量重命名.bat：包含关键词重命名、目录重命名、文件重命名、目录和文件重命名、替换目录名、替换文件名、替换目录和文件名。](https://github.com/cnzbpy/simplepy/blob/master/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D.bat)
 
-* ### [批量重命名.py：包含关键词重命名、目录重命名、文件重命名、目录和文件重命名。](https://github.com/cnzbpy/simplepy/blob/master/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D.py)
+* ### [批量重命名.py：包含关键词重命名、目录重命名、文件重命名、目录和文件重命名、替换目录名、替换文件名、替换目录和文件名。](https://github.com/cnzbpy/simplepy/blob/master/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D.py)
 
 * ### [数字时钟：包含的功能有：透明度、多秒表、计次、多倒计时、多闹钟、隐藏任务栏。](https://github.com/cnzbpy/simplepy/blob/master/%E6%95%B0%E5%AD%97%E6%97%B6%E9%92%9F.py)
 
