@@ -32,6 +32,8 @@
 
 * ### [调用WinRAR破解压缩密码：通过WinRAR的命令参数实现无界面所有WinRAR支持格式的压缩包的破解。](https://github.com/cnzbpy/simplepy/blob/master/%E8%B0%83%E7%94%A8WinRAR%E7%A0%B4%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%AF%86%E7%A0%81.py)
 
+* ### [进度条.py：包含两种样式的简单进度条。](https://github.com/cnzbpy/simplepy/blob/master/%E8%BF%9B%E5%BA%A6%E6%9D%A1.py)
+
 * ### [随机数：生成任意位数的随机数。](https://github.com/cnzbpy/simplepy/blob/master/%E9%9A%8F%E6%9C%BA%E6%95%B0.py)
 
 * ### [随机邮箱：邮箱名为任意长度的邮箱。](https://github.com/cnzbpy/simplepy/blob/master/%E9%9A%8F%E6%9C%BA%E9%82%AE%E7%AE%B1.py)
