@@ -14,6 +14,8 @@
 
 * ### [ffmpeg常用功能集合.py：简单的把ffmpeg一些常用功能集合到python调用,如转换视频、转换音频、从视频分离完整音频、从视频截取某时刻图片、截取某段视频、从视频制作gif、从视频截取音频、从音频截取音频。](https://github.com/cnzbpy/simplepy/blob/master/ffmpeg%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD%E9%9B%86%E5%90%88.py)
 
+* ### [wifi密码查看和删除：查看wifi密码或者删除所有保存的wifi密码](https://github.com/cnzbpy/simplepy/blob/master/wifi%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8B%E5%92%8C%E5%88%A0%E9%99%A4.bat)
+
 * ### [全屏数字时钟：全屏显示时间，背景图片wallpaper.jpg可自行替换，注意文件名必须为wallpaper，支持jpg和png格式。](https://github.com/cnzbpy/simplepy/blob/master/%E5%85%A8%E5%B1%8F%E6%95%B0%E5%AD%97%E6%97%B6%E9%92%9F.py)
 
 * ### [密码本：几行for嵌套实现密码本的生成。](https://github.com/cnzbpy/simplepy/blob/master/%E5%AF%86%E7%A0%81%E6%9C%AC.py)
