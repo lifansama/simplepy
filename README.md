@@ -26,7 +26,7 @@
 
 * ### [数字时钟：包含的功能有：透明度、多秒表、计次、多倒计时、多闹钟、隐藏任务栏。](https://github.com/cnzbpy/simplepy/blob/master/%E6%95%B0%E5%AD%97%E6%97%B6%E9%92%9F.py)
 
-* ### [热榜：包含b站全站日热榜、微博热搜榜、吾爱破解日热度排行、知乎热榜。](https://github.com/cnzbpy/simplepy/blob/master/%E7%83%AD%E6%A6%9C.py)
+* ### [热榜：包含微博热搜榜、吾爱破解日热度排行、知乎热榜。](https://github.com/cnzbpy/simplepy/blob/master/%E7%83%AD%E6%A6%9C.py)
 
 * ### [破解wifi密码：通过pywifi库实现wifi密码的破解。](https://github.com/cnzbpy/simplepy/blob/master/%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81.py)
 
