@@ -8,21 +8,6 @@ class rs:
         link=self.lb.get(self.lb.curselection())
         url=link[link.find('链接:')+3:len(link)]
         webbrowser.open(url,new=0)
-    def Bzw(self):
-        bzw=tk.Toplevel()
-        bzw.iconbitmap('热榜.ico')
-        bzw.title('b站全站日热榜')
-        bzw.geometry('550x280')
-        gd=tk.Scrollbar(bzw)
-        gd.pack(side='right',fill='y')
-        self.lb=tk.Listbox(bzw,width=230,yscrollcommand=gd.set)
-        self.lb.bind('<Double-Button-1>',self.openurl)
-        resp=requests.get('https://www.bilibili.com/ranking/all/0/0/1')
-        bzr=re.findall(r'"info"><a\shref="(.+)"\starget="_blank"\sclass="title">(.*?)</a>',resp.text)
-        for bz in bzr:
-            self.lb.insert('end',bz[1]+'  '+'链接'+':'+bz[0])
-        self.lb.pack(side='left',fill='both')
-        gd.config(command=self.lb.yview)
     def Wbw(self):
         wbw=tk.Toplevel()
         wbw.iconbitmap('热榜.ico')
@@ -93,7 +78,6 @@ class rs:
         self.menu.add_command(label=u'隐藏主页面',command=self.root.withdraw)
         self.menu.add_command(label=u'退出',command=self.allquit)
         panel=tk.Frame(self.root)
-        tk.Button(panel,text='b站',font=('',15),command=self.Bzw).pack(side='left')
         tk.Button(panel,text='微博',font=('',15),command=self.Wbw).pack(side='left')
         tk.Button(panel,text='吾爱破解',font=('',15),command=self.Waw).pack(side='left')
         tk.Button(panel,text='知乎',font=('',15),command=self.Zhw).pack(side='left')
