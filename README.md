@@ -38,6 +38,6 @@
 
 * ### [随机数：生成任意位数的随机数。](https://github.com/cnzbpy/simplepy/blob/master/%E9%9A%8F%E6%9C%BA%E6%95%B0.py)
 
-* ### [随机邮箱：邮箱名为任意长度的邮箱。](https://github.com/cnzbpy/simplepy/blob/master/%E9%9A%8F%E6%9C%BA%E9%82%AE%E7%AE%B1.py)
+* ### [CPlayer：基于FFPyPlayer的媒体播放器。](https://github.com/cnzbpy/simplepy/blob/master/CPlayer/CPlayerdemo.py)
 
 * # [LICENSE](https://github.com/cnzbpy/simplepy/blob/master/LICENSE)
