@@ -71,6 +71,7 @@ class Window(QMainWindow,Ui_MainWindow):
                         self.bplay.setToolTip('暂停')
                 else:
                     self.step=0
+                    self.tag=True
                     self.stime.setValue(0)
                     self.playitem=self.list.currentItem().text()
                     self.player=MediaPlayer("%s"%self.playitem)
@@ -120,7 +121,7 @@ class Window(QMainWindow,Ui_MainWindow):
                 self.bmute.setToolTip('取消静音')
             else:
                 if self.svolume.value()!=0:
-                    self.player.set_volume(self.svolume.value())
+                    self.player.set_volume(self.svolume.value()/100)
                 else:
                     self.player.set_volume(self.curvol/100)
                     self.svolume.setValue(self.curvol)
