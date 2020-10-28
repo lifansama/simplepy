@@ -6,6 +6,8 @@
 
 * ## 个人网盘：https://www.lanzoux.com/b01hlwsdi  访问密码:W4mT 解压密码：52pojie
 
+* ### [CPlayer：基于FFPyPlayer的媒体播放器。](https://github.com/cnzbpy/simplepy/blob/master/CPlayer/CPlayerdemo.py)
+
 * ### [Unrar破解rar压缩密码：通过Unrar库实现rar格式压缩包密码的破解。](https://github.com/cnzbpy/simplepy/blob/master/Unrar%E7%A0%B4%E8%A7%A3rar%E5%8E%8B%E7%BC%A9%E5%AF%86%E7%A0%81.py)
 
 * ### [You-Get常用功能集合：You-Get是一个很小的命令行实用程序，可从Web下载媒体内容（视频，音频，图像）。简单的把You-Get一些常用功能集合到python调用,如查看格式、在线播放、下载、获取真实地址。](https://github.com/cnzbpy/simplepy/blob/master/You-Get%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD%E9%9B%86%E5%90%88.py)
@@ -37,7 +39,5 @@
 * ### [进度条.py：包含两种样式的简单进度条。](https://github.com/cnzbpy/simplepy/blob/master/%E8%BF%9B%E5%BA%A6%E6%9D%A1.py)
 
 * ### [随机数：生成任意位数的随机数。](https://github.com/cnzbpy/simplepy/blob/master/%E9%9A%8F%E6%9C%BA%E6%95%B0.py)
-
-* ### [CPlayer：基于FFPyPlayer的媒体播放器。](https://github.com/cnzbpy/simplepy/blob/master/CPlayer/CPlayerdemo.py)
 
 * # [LICENSE](https://github.com/cnzbpy/simplepy/blob/master/LICENSE)
