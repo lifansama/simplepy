@@ -11,6 +11,7 @@ class Window(QMainWindow,Ui_MainWindow):
         self.Listadd()
         self.step=0
         self.loop=1
+        self.tag=True
         self.flag=True
     def Listadd(self):
         if os.path.isfile('CPlayerlist.txt'):
@@ -78,6 +79,8 @@ class Window(QMainWindow,Ui_MainWindow):
         except:
             QMessageBox.warning(self,'错误','找不到要播放的文件！')
     def Show(self):
+        if self.tag:
+            self.player.set_volume(self.svolume.value()/100)
         frame,self.val=self.player.get_frame()
         self.lmedia.setPixmap(QPixmap(''))
         if self.val!='eof' and frame is not None:
@@ -110,6 +113,7 @@ class Window(QMainWindow,Ui_MainWindow):
         self.curvol=self.svolume.value()
     def Mute(self):
         if self.flag==False:
+            self.tag=False
             if self.player.get_volume()!=0:
                 self.player.set_volume(0)
                 self.bmute.setIcon(QIcon(r'img\withoutvolume.png'))
