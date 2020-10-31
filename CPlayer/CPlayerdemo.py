@@ -166,23 +166,25 @@ class Window(QMainWindow,Ui_MainWindow):
         self.bplay.setIcon(QIcon(r'img\pause.png'))
         self.bplay.setToolTip('暂停')
     def Fastforward(self):
-        self.step+=10
-        if self.step>=int(self.mediatime):
-            self.stime.setValue(int(self.mediatime))
-        self.timer.start()
-        self.steptimer.start()
-        self.player=MediaPlayer("%s"%self.playitem,ff_opts={'ss':self.step})
-        self.bplay.setIcon(QIcon(r'img\pause.png'))
-        self.bplay.setToolTip('暂停')
+        if self.flag==False:
+            self.step+=10
+            if self.step>=int(self.mediatime):
+                self.stime.setValue(int(self.mediatime))
+            self.timer.start()
+            self.steptimer.start()
+            self.player=MediaPlayer("%s"%self.playitem,ff_opts={'ss':self.step})
+            self.bplay.setIcon(QIcon(r'img\pause.png'))
+            self.bplay.setToolTip('暂停')
     def Fastback(self):
-        self.step-=10
-        if self.step<=0:
-            self.step=0
-        self.timer.start()
-        self.steptimer.start()
-        self.player=MediaPlayer("%s"%self.playitem,ff_opts={'ss':self.step})
-        self.bplay.setIcon(QIcon(r'img\pause.png'))
-        self.bplay.setToolTip('暂停')
+        if self.flag==False:
+            self.step-=10
+            if self.step<=0:
+                self.step=0
+            self.timer.start()
+            self.steptimer.start()
+            self.player=MediaPlayer("%s"%self.playitem,ff_opts={'ss':self.step})
+            self.bplay.setIcon(QIcon(r'img\pause.png'))
+            self.bplay.setToolTip('暂停')
 if __name__=='__main__':
     app=QApplication(sys.argv)
     win=Window()
