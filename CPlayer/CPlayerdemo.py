@@ -93,11 +93,11 @@ class Window(QMainWindow,Ui_MainWindow):
         self.mediatime=self.player.get_metadata()['duration']
         if self.mediatime:
             self.stime.setMaximum(int(self.mediatime))
-        mediamin,mediasec=divmod(self.mediatime,60)
-        mediahour,mediamin=divmod(mediamin,60)
-        playmin,playsec=divmod(self.step,60)
-        playhour,playmin=divmod(playmin,60)
-        self.ltime.setText('%02d:%02d:%02d/%02d:%02d:%02d'%(playhour,playmin,playsec,mediahour,mediamin,mediasec))
+            mediamin,mediasec=divmod(self.mediatime,60)
+            mediahour,mediamin=divmod(mediamin,60)
+            playmin,playsec=divmod(self.step,60)
+            playhour,playmin=divmod(playmin,60)
+            self.ltime.setText('%02d:%02d:%02d/%02d:%02d:%02d'%(playhour,playmin,playsec,mediahour,mediamin,mediasec))
     def Stop(self):
         if self.flag==False:
             self.player.close_player()
