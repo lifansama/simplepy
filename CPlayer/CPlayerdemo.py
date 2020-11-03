@@ -91,7 +91,8 @@ class Window(QMainWindow,Ui_MainWindow):
             qimg=QImage(data,width,height,QImage.Format_RGB888)
             self.lmedia.setPixmap(QPixmap.fromImage(qimg))
         self.mediatime=self.player.get_metadata()['duration']
-        self.stime.setMaximum(int(self.mediatime))
+        if self.mediatime:
+            self.stime.setMaximum(int(self.mediatime))
         mediamin,mediasec=divmod(self.mediatime,60)
         mediahour,mediamin=divmod(mediamin,60)
         playmin,playsec=divmod(self.step,60)
